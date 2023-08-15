@@ -1,0 +1,111 @@
+/* .form_card{
+    border: 2px solid black;
+    border-radius: 5px;
+    height:70%;
+    width:50%;
+    margin-left: 25%;
+    margin-top: 15%;
+    max-width: px;
+}
+.cover{
+    width:100vw;
+    height:100vh;
+} */
+
+a {
+  text-decoration: none;
+}
+
+/* @keyframes fade {
+  10% {background: -webkit-linear-gradient(bottom, #F266AB 0%, #A459D1);}
+  20% {background: -webkit-linear-gradient(bottom, #F266AB 10%, #A459D1);}
+  30% {background: -webkit-linear-gradient(bottom, #F266AB 20%, #A459D1);}
+  40% {background: -webkit-linear-gradient(bottom, #F266AB 30%, #A459D1);}
+  50% {background: -webkit-linear-gradient(bottom, #F266AB 40%, #A459D1);}
+  60% {background: -webkit-linear-gradient(bottom, #F266AB 50%, #A459D1);}
+  70% {background: -webkit-linear-gradient(bottom, #F266AB 60%, #A459D1);}
+  80% {background: -webkit-linear-gradient(bottom, #F266AB 70%, #A459D1);}
+  90% {background: -webkit-linear-gradient(bottom, #F266AB 80%, #A459D1);}
+  100% {background: -webkit-linear-gradient(bottom, #F266AB 90%, #A459D1);}
+  100% {background: -webkit-linear-gradient(bottom, #F266AB 100%, #A459D1);}
+  /* 0%{background:blue;}
+  100%{background:teal;} */
+/* } */ */
+
+body {
+  /* background: -webkit-linear-gradient(bottom, #F266AB, #A459D1); */
+  background-repeat: no-repeat;
+  height:100vh;
+  /* animation: fade 2s infinite linear; */
+}
+label {
+  font-family: "Raleway", sans-serif;
+  font-size: 11pt;
+}
+#card-2 {
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 430px;
+  margin: 6rem auto 8.1rem auto;
+  width: 329px;
+}
+#card-content {
+  padding: 12px 44px;
+}
+#card-title {
+  font-family: "Raleway Thin", sans-serif;
+  letter-spacing: 4px;
+  padding-bottom: 23px;
+  padding-top: 13px;
+  text-align: center;
+}
+#signup {
+  color: #2dbd6e;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  margin-top: 16px;
+  text-align: center;
+}
+#submit-btn {
+  background: -webkit-linear-gradient(right, #2CD3E1, #1c8a94);
+  border: none;
+  border-radius: 21px;
+  box-shadow: 0px 1px 8px #30ccda;
+  color: white;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 50px;
+  transition: 0.25s;
+  width: 153px;
+}
+#submit-btn:hover {
+  box-shadow: 0px 1px 18px #24c64f;
+}
+.form {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+.form-border {
+  background: -webkit-linear-gradient(right,  #F266AB, #A459D1);
+  height: 1px;
+  width: 100%;
+}
+.form-content {
+  background: #fbfbfb;
+  border: none;
+  outline: none;
+  padding-top: 14px;
+}
+.underline-title {
+  background: -webkit-linear-gradient(right,  #F266AB, #A459D1);
+  height: 2px;
+  margin: -1.1rem auto 0 auto;
+  width: 89px;
+}
+
+#signup{
+    color:black;
+}
